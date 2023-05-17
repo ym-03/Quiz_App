@@ -45,6 +45,7 @@ body {
   cursor: pointer;
   transition: all 0.3s;
 }
+
 .btn:hover:not([disabled]){
   background: black;
   color: white;
@@ -70,10 +71,8 @@ body {
   background: red;
 }
 
-.endMessage {
-  text-align: center;
-  font-size: 16px;
-  color: darkorange;
-  font-weight: 500;
-  font-family: cursive;
+.quizEnded{
+  text-align: right;
+  color: darkblue;
+  font-size: large;
 }
